@@ -1,7 +1,4 @@
-تمام ✅
-ده **ملف README.md كامل** داخل **مربع واحد** تقدر تنسخه مرة واحدة بدون أي تعديل 👇
 
-````md
 # Telegram Username Checker
 
 An advanced asynchronous Telegram username availability checker written in Python.
@@ -88,12 +85,12 @@ Count (or 'infinite'): 100
 
 * Input file: `.txt`
 * One username per line
-* Supports usernames with or without `@`
+* Supports usernames without `@`
 
 Example file:
 
 ```
-@username1
+username1
 test_user
 example123
 ```
@@ -118,7 +115,7 @@ Each username is appended as soon as it is confirmed available.
 
 * Minimum length: **5**
 * Allowed characters: `a-z`, `0-9`, `_`
-* Must start & end with letter or number
+* Must start & end with letter only
 * No consecutive invalid characters
 
 ---
